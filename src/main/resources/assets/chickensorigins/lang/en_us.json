@@ -1,0 +1,16 @@
+{
+  "origin.chickensorigins.pixie.name": "Pixie",
+  "origin.chickensorigins.pixie.description": "The smallest and trickiest of races.",
+  "power.chickensorigins.pixie/feather_footed.name": "Feather Footed",
+  "power.chickensorigins.pixie/feather_footed.description": "The pixie's small size means they fall slower and cannot take fall damage.",
+  "power.chickensorigins.pixie/flight.name": "Flight",
+  "power.chickensorigins.pixie/flight.description": "Pixies are blessed with the gift of flight however their wings prevent the use of Elytras.",
+  "power.chickensorigins.pixie/mischief_launch.name": "Mischief Launch",
+  "power.chickensorigins.pixie/mischief_launch.description": "Cause a loud bang and escape quickly before they see you!",
+  "power.chickensorigins.pixie/pixie_properties.name": "Bitesize",
+  "power.chickensorigins.pixie/pixie_properties.description": "Pixies are some of the smallest creatures to roam the land, rarely reaching even the height of a regular person's knee.",
+  "power.chickensorigins.pixie/soaked.name": "Soaked",
+  "power.chickensorigins.pixie/soaked.description": "Being as small as they are, water poses a significant threat to pixies. It hampers their movement and impairs their ability to fly.",
+  "power.chickensorigins.pixie/troublemaker.name": "Troublemaker",
+  "power.chickensorigins.pixie/troublemaker.description": "Villagers know pixies by the legends of trouble they cause, and will refuse to trade with them."
+}
