@@ -1,0 +1,54 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+        "type":"origins:area_of_effect",
+		"radius": 5,
+		"include_target": true,
+		"bientity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:target_action",
+					"action": {
+						"type": "origins:and",
+						"actions": [
+							{
+								"type": "origins:grant_power",
+								"power": "sizeshifter:growth_resource",
+								"source": "sizeshifter:sizeshifter"
+							},
+							{
+								"type": "origins:grant_power",
+								"power": "sizeshifter:size_manager",
+								"source": "sizeshifter:sizeshifter"
+							},
+							{
+								"type": "origins:grant_power",
+								"power": "sizeshifter:lower_damage",
+								"source": "sizeshifter:sizeshifter"
+							},
+							{
+								"type": "origins:change_resource",
+								"resource": "*:growth_resource",
+								"change": 1,
+								"operation": "add"
+							}
+						]
+					}
+				}
+			]
+		}
+    },
+	"cooldown": 20,
+	"hud_render": {
+		"should_render": true,
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 0
+	},
+	"key": {
+        "key": "key.origins.ternary_active",
+        "continuous": false
+    },
+	"name": "Grow Others",
+	"description": "You can channel your powers into an aura 5 blocks around you. Anyone non-player creature will grow."
+}

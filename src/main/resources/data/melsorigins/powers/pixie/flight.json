@@ -1,0 +1,43 @@
+{
+	"type": "origins:multiple",
+	"creative_flight": {
+		"type": "origins:creative_flight"
+	},
+	"no_elytra": {
+		"type": "origins:restrict_armor",
+		"chest": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:elytra"
+			}
+		}
+	},
+	"slow_fly": {
+		"type": "origins:modify_air_speed",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": -0.6
+		},
+		"condition": {
+			"type": "origins:creative_flying"
+		}
+	},
+	"slow_fly_sprint": {
+		"type": "origins:modify_air_speed",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": -0.3
+		},
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:creative_flying"
+				},
+				{
+					"type": "origins:sprinting"
+				}
+			]
+		}
+	}
+}

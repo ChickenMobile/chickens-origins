@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "melsorigins",
+  "version": "${version}",
+
+  "name": "Mels Origins",
+  "description": "An origin for Pixie, also replaces Pixie from Medieval Origins.",
+  "authors": [
+    "ChickenMobile"
+  ],
+  "contact": {
+    "homepage": "",
+    "source": "",
+    "issues": ""
+  },
+
+  "license": "MIT License",
+  "icon": "assets/melsorigins/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.chickenmobile.melsorigins.client.MelsOriginsClient"
+    ],
+    "main": [
+      "com.chickenmobile.melsorigins.MelsOrigins"
+    ]
+  },
+  "mixins": [
+    "melsorigins.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17",
+    "origins": ">=1.4.0",
+    "pehkui": ">=3.0"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

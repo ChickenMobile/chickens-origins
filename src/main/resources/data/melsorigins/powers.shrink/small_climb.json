@@ -1,0 +1,47 @@
+{
+	"type": "origins:climbing",
+	"hold_condition": {
+		"type": "origins:and",
+		"conditions": [
+        {
+			"type": "origins:or",
+			"conditions": [
+			{
+				"type": "origins:block_collision",
+				"offset_x": 0.01,
+				"offset_z": 0.01,
+				"offset_y": 0
+            },
+            {
+				"type": "origins:block_collision",
+				"offset_x": -0.01,
+				"offset_z": -0.01,
+				"offset_y": 0
+			}
+			]
+		},
+        {
+			"type": "origins:resource",
+			"resource": "sizeshifter:growth_resource",
+			"comparison": "<=",
+			"compare_to": 1
+        }
+		]
+    },
+    "condition": {
+		"type": "origins:and",
+		"conditions": [
+        {
+			"type": "origins:collided_horizontally"
+        },
+        {
+			"type": "origins:resource",
+			"resource": "sizeshifter:growth_resource",
+			"comparison": "<=",
+			"compare_to": 0
+        }
+		]
+    },
+	"name": "Small Climber",
+	"description": "You can climb up blocks in your small form."
+}

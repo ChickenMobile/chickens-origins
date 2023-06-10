@@ -1,0 +1,18 @@
+{
+    "type": "origins:modify_falling",
+    "take_fall_damage": false,
+    "velocity": 0.01,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:sneaking",
+                "inverted": true
+            },
+            {
+                "type": "origins:fall_flying",
+                "inverted": true
+            }
+        ]
+    }
+}
