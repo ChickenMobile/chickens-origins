@@ -1,0 +1,45 @@
+{
+	"type": "origins:multiple",
+	"slow_movement": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.movement_speed",
+			"operation": "multiply_total",
+			"value": -0.25
+		},
+		"condition": {
+			"type": "origins:in_rain"
+		}
+	},
+	"flight_revoke": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:or",
+				"conditions": [
+					{
+						"type": "origins:in_rain"
+					},
+					{
+						"type": "origins:fluid_height",
+						"fluid": "minecraft:water",
+						"comparison": ">",
+						"compare_to": 0.0
+					}
+				]
+			},
+			"if_action": {
+				"type": "origins:revoke_power",
+				"power": "chickensorigins:pixie/flight",
+				"source": "chickensorigins:pixie"
+			},
+			"else_action": {
+				"type": "origins:grant_power",
+				"power": "chickensorigins:pixie/flight",
+				"source": "chickensorigins:pixie"
+			}
+		},
+		"interval": 20
+	}
+}
