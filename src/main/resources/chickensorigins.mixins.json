@@ -4,10 +4,11 @@
   "package": "com.chickenmobile.chickensorigins.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "BrewingRecipeRegistryMixin"
   ],
   "client": [
     "client.ChickensOriginsMixin",
-    "client.PlayerEntityRendererMixin"
+    "client.ModPlayerEntityRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

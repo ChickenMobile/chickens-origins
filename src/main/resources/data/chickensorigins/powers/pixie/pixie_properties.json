@@ -16,7 +16,7 @@
 	},
 	"size_callon": {
 		"type": "origins:action_on_callback",
-		"entity_action_chosen": {
+		"entity_action_gained": {
 			"type": "origins:execute_command",
 			"command": "function chickensorigins:chickensorigins/pixie_callon"
 		},
@@ -25,13 +25,5 @@
 			"command": "function chickensorigins:chickensorigins/pixie_callback"
 		},
 		"execute_chosen_when_orb": true
-	},
-	"size_constant": {
-		"type": "origins:action_over_time",
-		"entity_action": {
-			"type": "origins:execute_command",
-			"command": "execute unless entity @s[pehkui.scale_nbt={\"pehkui:scale_data_types\":{\"pehkui:height\":{scale:0.166f}}}] run function chickensorigins:chickensorigins/pixie_callon"
-		},
-		"interval": 50
 	}
 }

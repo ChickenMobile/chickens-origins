@@ -1,16 +1,40 @@
 {
   "origin.chickensorigins.pixie.name": "Pixie",
-  "origin.chickensorigins.pixie.description": "The smallest and trickiest of races.",
+  "origin.chickensorigins.pixie.description": "A tiny, fey prankster only known in legends.",
   "power.chickensorigins.pixie/feather_footed.name": "Feather Footed",
-  "power.chickensorigins.pixie/feather_footed.description": "The pixie's small size means they fall slower and cannot take fall damage.",
+  "power.chickensorigins.pixie/feather_footed.description": "Their small size means they fall slower and cannot take fall damage.",
   "power.chickensorigins.pixie/flight.name": "Flight",
-  "power.chickensorigins.pixie/flight.description": "Pixies are blessed with the gift of flight however their wings prevent the use of Elytras.",
+  "power.chickensorigins.pixie/flight.description": "Pixies can fly however their wings prevent the use of Elytras.",
   "power.chickensorigins.pixie/mischief_launch.name": "Mischief Launch",
   "power.chickensorigins.pixie/mischief_launch.description": "Cause a loud bang and escape quickly before they see you!",
   "power.chickensorigins.pixie/pixie_properties.name": "Bitesize",
-  "power.chickensorigins.pixie/pixie_properties.description": "Pixies are some of the smallest creatures to roam the land, rarely reaching even the height of a regular person's knee.",
+  "power.chickensorigins.pixie/pixie_properties.description": "Pixies are tiny and somewhat fragile, reaching less than half a block tall!",
   "power.chickensorigins.pixie/soaked.name": "Soaked",
-  "power.chickensorigins.pixie/soaked.description": "Being as small as they are, water poses a significant threat to pixies. It hampers their movement and impairs their ability to fly.",
+  "power.chickensorigins.pixie/soaked.description": "Water poses a significant threat to pixies. It hampers their movement and prevents their ability to fly.",
   "power.chickensorigins.pixie/troublemaker.name": "Troublemaker",
-  "power.chickensorigins.pixie/troublemaker.description": "Villagers know pixies by the legends of trouble they cause, and will refuse to trade with them."
+  "power.chickensorigins.pixie/troublemaker.description": "Villagers know pixies by the legends of trouble they cause, and will refuse to trade with them.",
+  "power.chickensorigins.pixie/pixie_dust.name": "Pixie Dust",
+  "power.chickensorigins.pixie/pixie_dust.description": "Legends speak of the shrinking power of pixie dust... although pixies just use it to change their wings. 'Blue is so last summer!'",
+  "power.chickensorigins.pixie/invisibility.name": "Invisibility",
+  "power.chickensorigins.pixie/invisibility.description": "Once per day, they can go invisible for a 30 seconds. Were they ever there?",
+
+  "item.chickensorigins.pixie_dust": "Pixie Dust",
+  "item.chickensorigins.blue_pixie_dust": "Blue Pixie Dust",
+  "item.chickensorigins.brown_pixie_dust": "Brown Pixie Dust",
+  "item.chickensorigins.green_pixie_dust": "Green Pixie Dust",
+  "item.chickensorigins.lime_pixie_dust": "Lime Pixie Dust",
+  "item.chickensorigins.orange_pixie_dust": "Orange Pixie Dust",
+  "item.chickensorigins.pink_pixie_dust": "Pink Pixie Dust",
+  "item.chickensorigins.purple_pixie_dust": "Purple Pixie Dust",
+  "item.chickensorigins.red_pixie_dust": "Red Pixie Dust",
+  "item.chickensorigins.yellow_pixie_dust": "Yellow Pixie Dust",
+
+  "item.minecraft.potion.effect.shrink_potion": "Shrinking Potion",
+  "item.minecraft.splash_potion.effect.shrink_potion": "Splash Potion of Shrinking",
+  "item.minecraft.lingering_potion.effect.shrink_potion": "Lingering Potion of Shrinking",
+  "item.minecraft.tipped_arrow.effect.shrink_potion": "Arrow of Shrinking",
+
+  "effect.chickensorigins.shrink": "Shrink",
+
+  "itemGroup.chickensorigins.pixie_dust": "Chicken's Origins"
 }

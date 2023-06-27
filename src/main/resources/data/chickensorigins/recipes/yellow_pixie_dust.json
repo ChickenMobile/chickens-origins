@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dyed_pixie_dust",
+  "ingredients": [
+    {
+      "item": "chickensorigins:pixie_dust"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "result": {
+    "item": "chickensorigins:yellow_pixie_dust"
+  }
+}

@@ -20,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.chickenmobile.chickensorigins.client.ChickensOriginsClient"
+      "com.chickenmobile.chickensorigins.ChickensOriginsClient"
     ],
     "main": [
       "com.chickenmobile.chickensorigins.ChickensOrigins"
